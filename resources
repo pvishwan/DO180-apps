@@ -1,0 +1,61 @@
+alertmanagers.monitoring.coreos.com                           featuregates.config.openshift.io                              operatorsources.operators.coreos.com
+apiservers.config.openshift.io                                flowschemas.flowcontrol.apiserver.k8s.io                      packagemanifests.packages.operators.coreos.com
+apiservices.apiregistration.k8s.io                            groups.user.openshift.io                                      persistentvolumeclaims
+appliedclusterresourcequotas.quota.openshift.io               horizontalpodautoscalers.autoscaling                          persistentvolumes
+authentications.config.openshift.io                           hostsubnets.network.openshift.io                              poddisruptionbudgets.policy
+authentications.operator.openshift.io                         identities.user.openshift.io                                  podmonitors.monitoring.coreos.com
+baremetalhosts.metal3.io                                      imagecontentsourcepolicies.operator.openshift.io              pods
+brokertemplateinstances.template.openshift.io                 imagepruners.imageregistry.operator.openshift.io              podsecuritypolicies.policy
+buildconfigs.build.openshift.io                               images.config.openshift.io                                    pods.metrics.k8s.io
+builds.build.openshift.io                                     images.image.openshift.io                                     podtemplates
+builds.config.openshift.io                                    imagestreamimages.image.openshift.io                          priorityclasses.scheduling.k8s.io
+catalogsources.operators.coreos.com                           imagestreams.image.openshift.io                               prioritylevelconfigurations.flowcontrol.apiserver.k8s.io
+certificatesigningrequests.certificates.k8s.io                imagestreamtags.image.openshift.io                            profiles.tuned.openshift.io
+clusterautoscalers.autoscaling.openshift.io                   imagetags.image.openshift.io                                  projects.config.openshift.io
+clusternetworks.network.openshift.io                          infrastructures.config.openshift.io                           projects.project.openshift.io
+clusteroperators.config.openshift.io                          ingressclasses.networking.k8s.io                              projecttrackers.redhattraining.com
+clusterresourcequotas.quota.openshift.io                      ingresscontrollers.operator.openshift.io                      prometheuses.monitoring.coreos.com
+clusterrolebindings.authorization.openshift.io                ingresses.config.openshift.io                                 prometheusrules.monitoring.coreos.com
+clusterrolebindings.rbac.authorization.k8s.io                 ingresses.extensions                                          provisionings.metal3.io
+clusterroles.authorization.openshift.io                       ingresses.networking.k8s.io                                   proxies.config.openshift.io
+clusterroles.rbac.authorization.k8s.io                        installplans.operators.coreos.com                             rangeallocations.security.openshift.io
+clusterserviceversions.operators.coreos.com                   ippools.whereabouts.cni.cncf.io                               replicasets.apps
+clusterversions.config.openshift.io                           jobs.batch                                                    replicationcontrollers
+componentstatuses                                             kubeapiservers.operator.openshift.io                          resourcequotas
+configmaps                                                    kubecontrollermanagers.operator.openshift.io                  rolebindingrestrictions.authorization.openshift.io
+configs.imageregistry.operator.openshift.io                   kubeletconfigs.machineconfiguration.openshift.io              rolebindings.authorization.openshift.io
+configs.operator.openshift.io                                 kubeschedulers.operator.openshift.io                          rolebindings.rbac.authorization.k8s.io
+configs.samples.operator.openshift.io                         kubestorageversionmigrators.operator.openshift.io             roles.authorization.openshift.io
+consoleclidownloads.console.openshift.io                      leases.coordination.k8s.io                                    roles.rbac.authorization.k8s.io
+consoleexternalloglinks.console.openshift.io                  limitranges                                                   routes.route.openshift.io
+consolelinks.console.openshift.io                             machineautoscalers.autoscaling.openshift.io                   runtimeclasses.node.k8s.io
+consolenotifications.console.openshift.io                     machineconfigpools.machineconfiguration.openshift.io          schedulers.config.openshift.io
+consoles.config.openshift.io                                  machineconfigs.machineconfiguration.openshift.io              secrets
+consoles.operator.openshift.io                                machinehealthchecks.machine.openshift.io                      securitycontextconstraints.security.openshift.io
+consoleyamlsamples.console.openshift.io                       machinesets.machine.openshift.io                              serviceaccounts
+containerruntimeconfigs.machineconfiguration.openshift.io     machines.machine.openshift.io                                 servicecas.operator.openshift.io
+controllerconfigs.machineconfiguration.openshift.io           mutatingwebhookconfigurations.admissionregistration.k8s.io    servicemonitors.monitoring.coreos.com
+controllerrevisions.apps                                      namespaces                                                    services
+credentialsrequests.cloudcredential.openshift.io              netnamespaces.network.openshift.io                            statefulsets.apps
+cronjobs.batch                                                network-attachment-definitions.k8s.cni.cncf.io                storageclasses.storage.k8s.io
+csidrivers.storage.k8s.io                                     networkpolicies.networking.k8s.io                             storagestates.migration.k8s.io
+csinodes.storage.k8s.io                                       networks.config.openshift.io                                  storageversionmigrations.migration.k8s.io
+csisnapshotcontrollers.operator.openshift.io                  networks.operator.openshift.io                                subscriptions.operators.coreos.com
+customresourcedefinitions.apiextensions.k8s.io                nexus.gpte.opentlc.com                                        templateinstances.template.openshift.io
+daemonsets.apps                                               nodes                                                         templates.template.openshift.io
+deploymentconfigs.apps.openshift.io                           nodes.metrics.k8s.io                                          thanosrulers.monitoring.coreos.com
+deployments.apps                                              oauthaccesstokens.oauth.openshift.io                          tuneds.tuned.openshift.io
+dnses.config.openshift.io                                     oauthauthorizetokens.oauth.openshift.io                       useridentitymappings.user.openshift.io
+dnses.operator.openshift.io                                   oauthclientauthorizations.oauth.openshift.io                  userquota.gpte.opentlc.com
+dnsrecords.ingress.operator.openshift.io                      oauthclients.oauth.openshift.io                               users.user.openshift.io
+egressnetworkpolicies.network.openshift.io                    oauths.config.openshift.io                                    validatingwebhookconfigurations.admissionregistration.k8s.io
+endpoints                                                     openshiftapiservers.operator.openshift.io                     volumeattachments.storage.k8s.io
+endpointslices.discovery.k8s.io                               openshiftcontrollermanagers.operator.openshift.io             volumesnapshotclasses.snapshot.storage.k8s.io
+etcds.operator.openshift.io                                   operatorgroups.operators.coreos.com                           volumesnapshotcontents.snapshot.storage.k8s.io
+events                                                        operatorhubs.config.openshift.io                              volumesnapshots.snapshot.storage.k8s.io
+events.events.k8s.io                                          operatorpkis.network.operator.openshift.io                    
+[student@workstation ~]$ oc get namespaces 
+Error from server (Forbidden): namespaces is forbidden: User "pvishwan1" cannot list resource "namespaces" in API group "" at the cluster scope
+[student@workstation ~]$ oc get events
+Error from server (Forbidden): events is forbidden: User "pvishwan1" cannot list resource "events" in API group "" in the namespace "pvishwan1-s2i"
+
